@@ -2,7 +2,7 @@
 
 This repository provides a minimal example of how to automate the deployment of Databricks Apps using GitHub Actions and Databricks Asset Bundles (DABs).
 
-For a detailed explanation, refer to the accompanying blog post: [**Automate your Databricks Apps deployments with GitHub Actions and Databricks Asset Bundles**](https://www.tbd.com).
+For a detailed explanation, refer to the accompanying blog post: [**Automate your Databricks Apps deployments with GitHub Actions and Databricks Asset Bundles**](https://apps-cookbook.dev/blog/automate-apps-deployments-dabs).
 
 ## Deployment Instructions
 
@@ -89,4 +89,4 @@ targets:
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [Databricks CLI Documentation](https://docs.databricks.com/aws/en/dev-tools/cli/)
 
-For more details, refer to the blog post: [**Automate your Databricks Apps deployments with GitHub Actions and Databricks Asset Bundles**](https://www.tbd.com).
+For more details, refer to the blog post: [**Automate your Databricks Apps deployments with GitHub Actions and Databricks Asset Bundles**](https://apps-cookbook.dev/blog/automate-apps-deployments-dabs).
