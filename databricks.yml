@@ -10,6 +10,10 @@ targets:
     default: true
     workspace:
       host: https://your-workspace.databricks.com/ # change to your own host URL
+    resources:
+      apps:
+        hello-world-app:
+          name: "hello-world-app-dev"
   prod:
     mode: production
     workspace:
