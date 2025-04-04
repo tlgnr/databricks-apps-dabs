@@ -3,7 +3,7 @@ resources:
     hello-world-app:
       name: "hello-world-app"
       source_code_path: ../src/app
-      description: "A Streamlit app that lets users trigger th job included in this bundle."
+      description: "A Streamlit app that lets users trigger the job included in this bundle."
       config:
         command:
           - "streamlit"
