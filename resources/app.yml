@@ -4,14 +4,6 @@ resources:
       name: "hello-world-app"
       source_code_path: ../src/app
       description: "A Streamlit app that lets users trigger the job included in this bundle."
-      config:
-        command:
-          - "streamlit"
-          - "run"
-          - "app.py"
-        env:
-          - name: JOB_ID
-            value: ${resources.jobs.hello_world.id}
 
       resources:
         - name: "app-job"
