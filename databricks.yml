@@ -9,15 +9,12 @@ targets:
     mode: development
     default: true
     workspace:
-      host: https://your-workspace.cloud.databricks.com/ # change to your own host URL
-    resources:
-      apps:
-        hello-world-app:
-          name: "hello-world-app-dev"
+      host: ${var.databricks_host} # change to your own host URL
+
   prod:
     mode: production
     workspace:
-      host: https://your-workspace.cloud.databricks.com/ # change to your own host URL
+      host: ${var.databricks_host} # change to your own host URL
       root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/${bundle.target}
     permissions:
       - user_name: ${workspace.current_user.userName}
