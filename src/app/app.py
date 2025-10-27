@@ -7,7 +7,7 @@ JOB_ID = os.getenv("JOB_ID")
 w = WorkspaceClient()
 
 
-if st.button(f"Trigger job with ID {JOB_ID}"):
+if st.button(f"Trigger job with the ID: {JOB_ID}"):
     try:
         response = w.jobs.run_now(job_id=JOB_ID)
         st.success("Job started successfully!")
